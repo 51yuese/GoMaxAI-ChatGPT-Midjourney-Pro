@@ -23,7 +23,7 @@
 ### 微信扫码
 > 备注：AIGC咨询
 
-<img src='./images/wechat.png' width='180' alt='微信二维码'/>
+<img src='/images/wechat.png' width='180' alt='微信二维码'/>
 
 ### QQ扫码
 > 备注：AIGC咨询
