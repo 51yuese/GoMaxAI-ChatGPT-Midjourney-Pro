@@ -1,9 +1,10 @@
 <div align="center">
 
-<h1 align="center">🍭  GoMaxAI-ChatGPT-Midjourney-Pro</h1>
+<h1 align="center">🍭  GoMaxAI-ChatGPT-Midjourney-Pro  🍭 </h1>
 
-全新精美的私有化AIGC平台(https://github.com/51yuese/GoMaxAI-ChatGPT-Midjourney-Pro)
+个人、团队、企业私有化运营的AIGC应用(https://github.com/51yuese/GoMaxAI-ChatGPT-Midjourney-Pro)
 
+欢迎体验和使用GoMaxAI系统PRO版，这是一款AIGC智能创作系统，支持智能问答、AI绘画、AI视频、AI音乐等热门AI功能。
 </div>
 
 ## 产品介绍
