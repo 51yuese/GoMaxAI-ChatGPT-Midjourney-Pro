@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="icon" href="/gomaxai/admin/favicon.ico"/>
+  <link rel="stylesheet" href="/gomaxai/admin/loading.css"/>
+  <link rel="stylesheet" href="/gomaxai/admin/browser_upgrade/index.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoMaxAI</title>
+  <script type="module" crossorigin src="/gomaxai/admin/static/js/main-2d3d97e8.js"></script>
+  <link rel="stylesheet" href="/gomaxai/admin/static/css/index-9f1f9544.css">
+</head>
+<body>
+<div id="app">
+  <div class="fantastic-admin-home">
+    <div class="sk-grid">
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+      <div class="sk-grid-cube"></div>
+    </div>
+    <div class="text">GoMaxAi Admin</div>
+  </div>
+  <div id="browser-upgrade">
+    <div class="title">为了您的体验，推荐使用以下浏览器</div>
+    <div class="browsers">
+      <a href="https://www.microsoft.com/edge" target="_blank" class="browser">
+        <img class="browser-icon" src="/gomaxai/admin/browser_upgrade/edge.png"/>
+        <div class="browser-name">Mircosoft Edge</div>
+      </a>
+      <a href="https://www.google.cn/chrome/" target="_blank" class="browser">
+        <img class="browser-icon" src="/gomaxai/admin/browser_upgrade/chrome.png"/>
+        <div class="browser-name">Google Chrome</div>
+      </a>
+    </div>
+  </div>
+</div>
+<script>
+  if (!!window.ActiveXObject || 'ActiveXObject' in window) {
+    document.getElementById('browser-upgrade').style.display = 'block'
+  }
+</script>
+
+
+<script type="application/javascript">
+
+
+  var data = {keys: ['clientFavoIconPath']}
+  var xhr = new XMLHttpRequest();
+  // xhr.open('POST', )
+
+  let $favicon = document.querySelector('link[rel="icon"]');
+
+  // console.log(window.sessionStorage.getItem('siteIcon'))
+  // console.log($favicon)
+
+  if ($favicon !== null) {
+    $favicon.href = window.sessionStorage.getItem('siteIcon');
+  } else {
+    $favicon = document.createElement("link");
+    $favicon.rel = "icon";
+    $favicon.href = window.sessionStorage.getItem('siteIcon');
+    document.head.appendChild($favicon);
+    axios
+  }
+</script>
+</body>
+</html>

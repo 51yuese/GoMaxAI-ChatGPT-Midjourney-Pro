@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  gomaxai:
+    # 镜像及版本      
+    image: registry.cn-hangzhou.aliyuncs.com/qietuzi/gomaxai:5.0.0
+    # 自定义容器名
+    container_name: gomaxai_6.0
+    # docker启动时,自动启动该容器
+    restart: always
+    # 挂载映射，可以让数据或配置持久化
+    volumes:
+      # <本地配置文件> : <docker中的配置文件> : <ro:docker容器对该文件只读,默认是rw可读可写>
+      - ./.env:/app/.env
+      - ./app:/app/app
+      - ./webroot:/app/webroot
+    ports:     # <本地端口> : <docker容器端口>
+     - 9520:3000   
