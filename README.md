@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href='#LOGO'>
-  <img src="./images/256yuan.png" alt="icon"/>
+  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/256yuan.png" alt="icon"/>
 </a>
 
 <h1 align="center">GoMaxAI Pro版 (ChatGPT-Midjourney)</h1>
