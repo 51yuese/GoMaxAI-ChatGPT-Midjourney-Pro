@@ -16,7 +16,7 @@
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[演示站](https://gomaxai.qumao518.vip) / [免费版](https://gitee.com/ignition-network/gomaxai) / [Pro版](https://gitee.com/ignition-network/gomaxaipro) / [咨询](http://wpa.qq.com/msgrd?v=3&uin=124628086&site=qq&menu=yes)
+[演示站](https://gomaxai.qumao518.vip) / [免费版](https://github.com/51yuese/ChatGPT-web-Midjourney-proxy) / [Pro版](https://gitee.com/ignition-network/gomaxaipro) / [咨询](http://wpa.qq.com/msgrd?v=3&uin=124628086&site=qq&menu=yes)
 
 [web-url]: https://gomaxai.qumao518.vip/
 [download-url]: https://wwr.lanzouh.com/iufxa28xh3cb
