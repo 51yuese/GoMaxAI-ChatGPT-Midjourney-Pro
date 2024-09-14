@@ -53,8 +53,8 @@
 - Q Q咨询：**124628086**
 - 微信咨询: **lzgzs168**
 ---
- <div align="center">   
- <img src="https://gitee.com/ignition-network/gomaxai/raw/master/images/wechat.png" height="120" width="120" alt="icon"/>
+ <div >   
+ <img src="https://gitee.com/ignition-network/gomaxai/raw/master/images/wechat.png" height="256" width="256" alt="icon"/>
 
 
 <h1 align="center">系统主界面</h1>
