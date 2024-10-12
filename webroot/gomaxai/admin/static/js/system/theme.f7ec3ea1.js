@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+  
+import{d as e,u as a,F as t,r as s,o as l,l as r,b as o,e as i,f as n,h as d,i as u,j as m,c as f,P as c,q as p}from"../main-fe71c3b2.js";const y={style:{"margin-top":"24px"}},g=e({__name:"theme",setup(e){const p=a(),g=t({theme:""}),b=s({theme:[{required:!0,trigger:"blur",message:"必选"}]}),h=s();async function x(){const e=await f.queryConfig({keys:["theme"]});Object.assign(g,e.data)}function k(){var e;null==(e=h.value)||e.validate((async e=>{if(e){if(0==p.isUserModifyPermissions())return c.error("非超级管理员无权限操作！");try{await f.setConfig({settings:(a=g,Object.keys(a).map((e=>({configKey:e,configVal:a[e]}))))}),c.success("变更配置信息成功")}catch(t){}x()}else c.error("请填写完整信息");var a}))}return l((()=>{x()})),(e,a)=>{const t=r("el-radio"),s=r("el-radio-group"),l=r("el-form-item"),f=r("el-form"),c=r("el-button");return o(),i("div",null,[a[4]||(a[4]=n("div",{style:{color:"#20295A","font-size":"15px","margin-bottom":"24px"}},"设置默认系统主题",-1)),d(f,{ref_key:"formRef",ref:h,rules:b.value,model:g},{default:u((()=>[d(l,{prop:"theme"},{default:u((()=>[d(s,{modelValue:g.theme,"onUpdate:modelValue":a[0]||(a[0]=e=>g.theme=e),style:{display:"block"}},{default:u((()=>[d(t,{style:{display:"block",transform:"scale(1.1)","margin-bottom":"12px"},label:"dark"},{default:u((()=>a[1]||(a[1]=[m("深色")]))),_:1}),d(t,{style:{display:"block",transform:"scale(1.1)"},label:"light"},{default:u((()=>a[2]||(a[2]=[m("浅色")]))),_:1})])),_:1},8,["modelValue"])])),_:1})])),_:1},8,["rules","model"]),n("div",y,[d(c,{bg:"",text:"",type:"primary",size:"large",style:{"font-size":"15px",background:"#EFF6FF",height:"42px",color:"#60A5FA","border-radius":"8px",padding:"8px 100px"},onClick:k},{default:u((()=>a[3]||(a[3]=[m("保存设置")]))),_:1})])])}}});"function"==typeof p&&p(g);export{g as default};
