@@ -98,8 +98,18 @@
 
 <h1 align="center">智能问答</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
+ <h1 align="center">智能体（GPS应用）</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能体.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.png" alt="icon"/>
+<h1 align="center">Suno音乐</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
+<h1 align="center">Luma视频</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/luma.png" alt="icon"/>
+<h1 align="center">Runway视频</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/runway.png" alt="icon"/>
+<h1 align="center">可灵视频</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/kling.png" alt="icon"/>
 <h1 align="center">Suno音乐</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
 <h1 align="center">Luma视频</h1>
@@ -122,6 +132,16 @@
 
 ## 最新动态
 
+## 最新动态
+
+- 🚀 8.0.0  全新界面，新增Runway视频、可灵视频功能
+- 🚀 7.0.3  修复PC端部分显示BUG
+- 🚀 7.0.2  新增豆包大模型
+- 🚀 7.0.2  新增豆包大模型
+- 🚀 7.0.1  新增豆包大模型
+- 🚀 7.0.0  saas多开功能（代理商分站功能）
+- 🚀 6.0.4  修复PC端部分BUG
+- 🚀 6.0.4  调整文档分析功能
 - 🚀 6.0.3  智能问答内容排版优化
 - 🚀 6.0.2  web端各界面BUG修复
 - 🚀 6.0.1  web端各界面优化
