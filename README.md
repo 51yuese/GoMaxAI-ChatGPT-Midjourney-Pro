@@ -103,6 +103,8 @@
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能体.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.png" alt="icon"/>
+ <h1 align="center">小工具</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/小工具.png" alt="icon"/>
 <h1 align="center">Suno音乐</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
 <h1 align="center">Luma视频</h1>
