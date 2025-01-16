@@ -101,6 +101,8 @@
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
  <h1 align="center">智能体（GPS应用）</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能体.png" alt="icon"/>
+ <h1 align="center">AIPPT</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.png" alt="icon"/>
  <h1 align="center">小工具</h1>
