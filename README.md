@@ -1,22 +1,22 @@
 <div align="center">
 
 <a href='#LOGO'>
-  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/256yuan.png" alt="icon"/>
+  <img src="./images/256yuan.png" alt="icon"/>
 </a>
 
-<h1 align="center">GoMaxAI Pro版 (ChatGPT-Midjourney)</h1>
+<h1 align="center">比象AI创作系统 (ChatGPT-Midjourney)</h1>
 
-中文 | [English](./README_EN.md)
+[简体中文](./README.md)
 
 
-个人、团队、企业私有化运营的AIGC应用,支持ChatGPT、Claude、Gemini、kimi、文心一言、讯飞星火、清华智谱、suno-v3.5、luma-video等模型。
+个人、团队、企业私有化运营的AIGC应用,支持Deepseek满血版、ChatGPT、Claude、Gemini、kimi、文心一言、讯飞星火、清华智谱、suno-v3.5、luma-video等模型。
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[演示站](https://gomaxai.qumao518.vip) / [免费版](https://github.com/51yuese/ChatGPT-web-Midjourney-proxy) / [Pro版](https://gitee.com/ignition-network/gomaxaipro) / [咨询](http://wpa.qq.com/msgrd?v=3&uin=124628086&site=qq&menu=yes)
+[演示站](https://gomaxai.qumao518.vip) / [免费版](https://gitee.com/ignition-network/gomaxai) / [Pro版](https://gitee.com/ignition-network/gomaxaipro) / [咨询](http://wpa.qq.com/msgrd?v=3&uin=124628086&site=qq&menu=yes)
 
 [web-url]: https://gomaxai.qumao518.vip/
 [download-url]: https://wwr.lanzouh.com/iufxa28xh3cb
@@ -25,9 +25,9 @@
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://pxl6xtaj0ew.feishu.cn/wiki/QiwZwSGUniLU6bkAjXVcJ3CWnZf?from=from_copylink) [<img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/lazy.png" alt="icon" height="30">](https://lanmao.51sqbb.com)  [<img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/mjpe.png" alt="icon" height="30">](https://midjourney.bxmj.top)
+[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://pxl6xtaj0ew.feishu.cn/wiki/QiwZwSGUniLU6bkAjXVcJ3CWnZf?from=from_copylink) [<img src="./images/lazy.png" alt="icon" height="30">](https://lanmao.51sqbb.com)  [<img src="./images/mjpe.png" alt="icon" height="30">](https://midjourney.bxmj.top)
 
-[<img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/mj59.png" height="60" width="288" >](https://midjourney.bxmj.top)
+[<img src="./images/mj59.png" height="60" width="288" >](https://midjourney.bxmj.top)
 
 </div>
 
@@ -50,6 +50,7 @@
 >   **修复免费版本各功能BUG**
 > - [🫱 点我立即了解及体验PRO版本](https://gomaxai.qumao518.vip)
 
+
 ## 系统技术架构
 - web前端：vue3
 - 移动端：uniapp
@@ -63,13 +64,12 @@
 
 - Q Q咨询：**124628086**
 - 微信咨询: **lzgzs168**
----
- <div >   
- <img src="https://gitee.com/ignition-network/gomaxai/raw/master/images/wechat.png" height="256" width="256" alt="icon"/>
+--- 
+ <img src="https://gitee.com/ignition-network/gomaxai/raw/master/images/wechat.png" height="200" width="200" alt="icon"/>
 
 
 <h1 align="center">系统主界面</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/主页.png" alt="icon"/>
+ <img src="./images/主页.png" alt="icon"/>
 </div>
 
 ---
@@ -86,7 +86,7 @@
 - 绘画账号池（无限量）：每个账号同时支持单独的并发线程设定，线程隔离，可设置出图模式
 - 绘图普通(relax)/快速模式(fast)/极速模式（turb）区分，可单独设置扣除积分
 - 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
-- LUMA视频：支持文生视频、图生视频等
+- AI视频：支持luma\runway\可灵视频文生视频、图生视频等
 - 思维导图：一键根据需求生成思维导图，可导出PNG或SVG
 - 灵感广场：用户绘图公开展示（私有绘图不展示）
 - 应用市场：可后台管理动态添加及其管理
@@ -102,47 +102,33 @@
 ## 界面截图
 
 <h1 align="center">智能问答</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
- <h1 align="center">智能体（GPS应用）</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能体.png" alt="icon"/>
- <h1 align="center">AIPPT</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
+ <img src="./images/智能问答.png" alt="icon"/>
+<h1 align="center">AIPPT</h1>
+ <img src="./images/ppt.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.png" alt="icon"/>
- <h1 align="center">小工具</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/xgj.png" alt="icon"/>
+ <img src="./images/MJ.jpg" alt="icon"/>
 <h1 align="center">Suno音乐</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
-<h1 align="center">Luma视频</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/luma.png" alt="icon"/>
-<h1 align="center">Runway视频</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/runway.png" alt="icon"/>
-<h1 align="center">可灵视频</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/kling.png" alt="icon"/>
-<h1 align="center">Suno音乐</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
-<h1 align="center">Luma视频</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/1.png" alt="icon"/>
+ <img src="./images/3.png" alt="icon"/>
+<h1 align="center">AI视频</h1>
+ <img src="./images/luma.png" alt="icon"/>
 <h1 align="center">个人中心</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/个人中心.png" alt="icon"/>
+ <img src="./images/个人中心.png" alt="icon"/>
 <h1 align="center">手机端</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/手机端.png" alt="icon"/>
+ <img src="./images/手机端.png" alt="icon"/>
 <h1 align="center">管理后台</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/管理后台.png" alt="icon"/>
+ <img src="./images/管理后台.png" alt="icon"/>
 
 ## 开发计划
 
-- [x] 知识库功能
-- [x] SD工作流
-- [x] 数字人克隆
-- [x] 声音克隆
-- [x] 更多功能
+- [x] AIPPT一键生成
+- [x] 语音实时通话功能
+- [x] SAAS多开功能
+- [x] 移动端全新界面
+- [x] SD绘画功能
+- [x] 更多大语言模型
 
 ## 最新动态
-
-## 最新动态
-- 🚀 8.4.3  重构SUNO音乐，全新AIPPT功能；
-- 🚀 8.4.3  新增PPT一键生成（可在线编辑）；
+- 🚀 9.0.0  PC端重构
 - 🚀 8.0.0  全新界面，新增Runway视频、可灵视频功能
 - 🚀 7.0.3  修复PC端部分显示BUG
 - 🚀 7.0.2  新增豆包大模型
