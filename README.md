@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href='#LOGO'>
-  <img src="./images/256yuan.png" alt="icon"/>
+  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/256yuan.png" alt="icon"/>
 </a>
 
 <h1 align="center">比象AI创作系统 (ChatGPT-Midjourney)</h1>
@@ -25,9 +25,9 @@
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://pxl6xtaj0ew.feishu.cn/wiki/QiwZwSGUniLU6bkAjXVcJ3CWnZf?from=from_copylink) [<img src="./images/lazy.png" alt="icon" height="30">](https://lanmao.51sqbb.com)  [<img src="./images/mjpe.png" alt="icon" height="30">](https://midjourney.bxmj.top)
+[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://pxl6xtaj0ew.feishu.cn/wiki/QiwZwSGUniLU6bkAjXVcJ3CWnZf?from=from_copylink) [<img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/lazy.png" alt="icon" height="30">](https://lanmao.51sqbb.com)  [<img src="./images/mjpe.png" alt="icon" height="30">](https://midjourney.bxmj.top)
 
-[<img src="./images/mj59.png" height="60" width="288" >](https://midjourney.bxmj.top)
+[<img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/mj59.png" height="60" width="288" >](https://midjourney.bxmj.top)
 
 </div>
 
@@ -69,7 +69,7 @@
 
 
 <h1 align="center">系统主界面</h1>
- <img src="./images/主页.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/主页.png" alt="icon"/>
 </div>
 
 ---
@@ -102,27 +102,25 @@
 ## 界面截图
 
 <h1 align="center">智能问答</h1>
- <img src="./images/智能问答.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
 <h1 align="center">AIPPT</h1>
- <img src="./images/ppt.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
- <img src="./images/MJ.jpg" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.jpg" alt="icon"/>
 <h1 align="center">Suno音乐</h1>
- <img src="./images/3.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
 <h1 align="center">AI视频</h1>
- <img src="./images/luma.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/luma.png" alt="icon"/>
 <h1 align="center">个人中心</h1>
- <img src="./images/个人中心.png" alt="icon"/>
+ <img =src"https://gitee.com/ignition-network/gomaxaipro/raw/master/images/个人中心.png" alt="icon"/>
 <h1 align="center">手机端</h1>
- <img src="./images/手机端.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/手机端.png" alt="icon"/>
 <h1 align="center">管理后台</h1>
- <img src="./images/管理后台.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/管理后台.png" alt="icon"/>
 
 ## 开发计划
 
-- [x] AIPPT一键生成
-- [x] 语音实时通话功能
-- [x] SAAS多开功能
+- [x] 数字人功能
 - [x] 移动端全新界面
 - [x] SD绘画功能
 - [x] 更多大语言模型
