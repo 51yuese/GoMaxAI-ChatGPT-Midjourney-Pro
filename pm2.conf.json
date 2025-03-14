@@ -1,6 +1,6 @@
 {
   "apps": {
-    "name": "gomaxai-v8.4",
+    "name": "gomaxai-v8.5.4",
     "script": "./app/main.js",
     "watch": false,
     "ignore_watch": [
