@@ -112,7 +112,7 @@
 <h1 align="center">AI视频</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/luma.png" alt="icon"/>
 <h1 align="center">个人中心</h1>
- <img =src"https://gitee.com/ignition-network/gomaxaipro/raw/master/images/个人中心.png" alt="icon"/>
+ <img =src"https://gitee.com/ignition-network/gomaxaipro/raw/master/images/huiyuan.png" alt="icon"/>
 <h1 align="center">手机端</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/手机端.png" alt="icon"/>
 <h1 align="center">管理后台</h1>
