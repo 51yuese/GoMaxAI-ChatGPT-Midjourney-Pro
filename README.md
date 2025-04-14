@@ -109,6 +109,8 @@
 
 <h1 align="center">智能问答</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
+<h1 align="center">知识库</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/zhishi.png" alt="icon"/>
 <h1 align="center">AIPPT</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
