@@ -4,7 +4,7 @@ services:
     # 镜像及版本      
     image: crpi-q9fos4yshsl1zjxy.cn-hangzhou.personal.cr.aliyuncs.com/gomaxai/ai:9.0.0
     # 自定义容器名
-    container_name: bxai_9.0.0
+    container_name: bxai_9.1.0
     environment:
       TZ: Asia/Shanghai
     # docker启动时,自动启动该容器

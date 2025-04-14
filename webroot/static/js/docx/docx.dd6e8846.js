@@ -1,0 +1,1 @@
+import{j as a,aN as o}from"../main-be2ae0f3.js";function s(a){return o({url:"/chatgpt/chat-docs",data:{prompt:a.prompt,options:a.options},signal:a.signal,onDownloadProgress:a.onDownloadProgress})}function t(a){return o({url:"/docsTask/save",data:a})}function n(o){return a({url:"/docsTask/detail",data:o})}export{n as a,t as d,s as f};
