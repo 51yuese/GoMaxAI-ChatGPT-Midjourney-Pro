@@ -1,0 +1,1 @@
+const s="/static/svg/dark_music_author-475fe5fe.svg",t="/static/svg/light_music_up-7b1605fb.svg",a="/static/svg/light_music_stop-1a839c27.svg",g="/static/svg/light_music_play-25a77d99.svg",i="/static/svg/light_music_end-ff139dbf.svg",c="/static/svg/light_music_author-af5a413d.svg";export{t as _,a,g as b,i as c,s as d,c as e};

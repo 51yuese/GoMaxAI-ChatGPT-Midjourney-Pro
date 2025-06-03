@@ -1,0 +1,1 @@
+import{e as s,ak as t,w as a,x as e,B as i,aD as o,F as n}from"../main-23bab8dd.js";const p=s({__name:"index",setup:s=>(s,p)=>{const r=t("RouterView");return a(),e(n,null,[i(o,{isChatProp:!0,style:{width:"400px",position:"fixed",right:"0",top:"0",height:"83px","z-index":"41"}}),i(r)],64)}});export{p as default};
