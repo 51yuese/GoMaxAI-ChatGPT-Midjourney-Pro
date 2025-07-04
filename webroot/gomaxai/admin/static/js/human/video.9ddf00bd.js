@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+  
+import{d as e,r as a,e as l,o as t,j as r,h as n,g as s,i as o,q as i,t as u,al as d,P as c,a2 as p}from"../main-a14f6586.js";const m=e({__name:"video",setup(e){const p=a(),m=a(),f=a(),h=a([{name:"查询",color:"primary",icon:"search",action:"Search"}]);return(e,a)=>{const b=l("ElsInput"),y=l("ElsMenuTool"),_=l("ElsFormQuery"),k=l("ElsColumn"),g=l("ElsColumnImage"),E=l("el-button"),C=l("ElsTable"),v=l("ElsContainer");return t(),r(v,{ref_key:"containerRef",ref:f},{default:n((()=>[s(_,{ref_key:"queryRef",ref:m,defaultQuery:[{prop:"type",value:10}]},{default:n((()=>[s(b,{prop:"name",placeholder:"请输入名称"}),s(y,{data:o(h),text:"",bg:""},null,8,["data"])])),_:1},512),s(C,{url:"/admin/human/human/list",ref_key:"tableRef",ref:p},{default:n((()=>[s(k,{prop:"id",label:"ID",sortable:"",width:"100",sortExpress:"desc"}),s(k,{prop:"name",label:"名称",width:"200"}),s(g,{prop:"cover",label:"封面"}),s(k,{prop:"description",label:"说明"}),s(k,{prop:"createdAt",label:"创建时间",width:"200",dateFormatter:"YYYY-MM-DD HH:mm:ss"}),s(k,{label:"操作",width:"200"},{default:n((({row:e})=>[s(E,{link:"",type:"primary",size:"small",onClick:a=>function(e){`/admin/human/human/rec?id=${e.id}&rec=${1==e.publish_flag?0:1}`.get().then((e=>{p.value.loadData(),c.success("操作成功")}))}(e)},{default:n((()=>[i(u(e.publishFlag?"取消推荐":"推荐"),1)])),_:2},1032,["onClick"]),s(E,{link:"",type:"danger",size:"small",onClick:a=>function(e){d.confirm("确认删除？").then((()=>{`/admin/human/human/delete?id=${e.id}`.get().then((e=>{p.value.searchData(),c.success("删除成功")}))}))}(e)},{default:n((()=>a[0]||(a[0]=[i("删除")]))),_:2},1032,["onClick"])])),_:1})])),_:1},512)])),_:1},512)}}});"function"==typeof p&&p(m);export{m as default};

@@ -1,0 +1,1 @@
+import{e,q as s,I as a,ag as t,w as n,O as r}from"../main-bf8e7d49.js";const i=e({__name:"index",setup:e=>(s((()=>{a.emit("setSliderMenus")})),(e,s)=>{const a=t("RouterView");return n(),r(a)})});export{i as default};
