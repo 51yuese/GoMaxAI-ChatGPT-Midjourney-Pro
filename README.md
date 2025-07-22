@@ -31,12 +31,15 @@
 
 </div>
 
-## 功能支持（最新9.2.0版本 2025.7.3）
-> - **🎯新增数字人克隆、声音克隆功能；**
-> - **🚀 新增文章中心功能；**
-> - **🎯 全新独立移动端，支持H5、小程序、APP；**
+## 功能支持（最新9.2.2版本 2025.7.22）
+> - **🎯优化导航、数字人、AI音乐等界面显示；**
+> - **🚀增加对话联网标识显示、即梦图生视频比例选择等；**
+> - **🎯优先系统已知BUG，详见更新教程；**
 
 > - **PRO版本支持更强大的功能；**
+> - > - **全新独立移动端，支持H5、小程序、APP**
+> - **支持数字人克隆、声音克隆；**
+> - **支持发布文章资讯**
 > - **支持coze知识库功能；**
 > - **支持直接调用在扣子官网创建的智能体；**
 > - **支持直接调用在扣子官网创建的工流流；**
@@ -115,16 +118,18 @@
 
 <h1 align="center">智能问答</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
+ <h1 align="center">数字人</h1>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/shuziren.png" alt="icon"/>
 <h1 align="center">知识库</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/zhishi.png" alt="icon"/>
 <h1 align="center">AIPPT</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.jpg" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.png" alt="icon"/>
 <h1 align="center">Suno音乐</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/3.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/suno.png" alt="icon"/>
 <h1 align="center">AI视频</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/luma.png" alt="icon"/>
+ <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/shipin.png" alt="icon"/>
 <h1 align="center">个人中心</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/huiyuan.png" alt="icon"/>
 <h1 align="center">手机端</h1>
@@ -140,6 +145,8 @@
 - [x] 更多大语言模型
 
 ## 最新动态
+- 🚀 9.2.2  增加对话联网标识显示、即梦图生视频比例选择等
+- 🚀 9.2.1  优化AI视频、AI绘画、AI音乐、AIPPT界面  
 - 🚀 9.2.0  新增数字人克隆、声音克隆，文章中心功能，优化界面布局、全新移动端，修复已知BUG
 - 🚀 9.1.6  新增code智能体对话工作流显示，修复已知BUG
 - 🚀 9.1.5  新增可灵绘画、即梦绘画、GPT-4o-image绘画、即梦视频功能
