@@ -14,8 +14,8 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
 	<title></title>
-  <script type="module" crossorigin src="/static/js/main-bf8e7d49.js"></script>
-  <link rel="stylesheet" href="/static/css/index-e9264496.css">
+  <script type="module" crossorigin src="/static/js/main-4156cf5e.js"></script>
+  <link rel="stylesheet" href="/static/css/index-a61ca809.css">
 </head>
 
 <body class="dark:bg-black">
@@ -132,6 +132,23 @@
 				</div>
 			</div> -->
 		</div>
+		<script>
+			
+		// 方法1：根据缩放比例计算zoom值
+		(function () {
+		const ratio = window.devicePixelRatio || 
+						(navigator.userAgent.toLowerCase().includes('msie') 
+						? screen.deviceXDPI / screen.logicalXDPI 
+						: window.outerWidth / window.innerWidth);
+		const body = document.querySelector('body');
+		console.log(ratio,body,"ratioratioratio");
+		
+		if (ratio && ratio !== 1) {
+			// 根据缩放比例调整zoom值（适配125%-200%场景）
+			body.style.zoom = ratio >= 2 ? 0.8 : ratio >= 1.5 ? 0.7 : 0.9;
+		}
+		})();
+		</script>
 
 		
 		<script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>

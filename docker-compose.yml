@@ -2,7 +2,7 @@ version: "3.8"
 services:
   gomaxai:
     # 镜像及版本      
-    image: crpi-q9fos4yshsl1zjxy.cn-hangzhou.personal.cr.aliyuncs.com/gomaxai/ai:9.0.1
+    image: crpi-q9fos4yshsl1zjxy.cn-hangzhou.personal.cr.aliyuncs.com/gomaxai/ai:9.0.3
     # 自定义容器名
     container_name: gomaxai_saas
     environment:
