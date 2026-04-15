@@ -1,1 +1,0 @@
-import{r as e,B as s,b as a,K as r,bb as n,a as t}from"./index-CPgL3lNI.js";const o={__name:"webview",setup(o){const u=e("");return s((e=>{u.value=decodeURIComponent(e.url||"")})),(e,s)=>{const o=n;return u.value?(t(),a(o,{key:0,src:u.value},null,8,["src"])):r("",!0)}}};export{o as default};

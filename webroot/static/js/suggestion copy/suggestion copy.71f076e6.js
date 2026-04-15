@@ -1,1 +1,0 @@
-const s="/static/svg/close-9c203e59.svg",a="/static/svg/close copy-6eb5ff7d.svg",t="/static/svg/kefuIcon-ff34b932.svg",g="/static/svg/wentiIcon-18361a1a.svg",c="/static/svg/book-ea524d41.svg",v="/static/svg/book copy-60b2084e.svg",o="/static/svg/suggestion-a4f43298.svg",e="/static/svg/suggestion copy-69ec16d7.svg";export{s as _,v as a,c as b,e as c,a as d,t as e,g as f,o as s};

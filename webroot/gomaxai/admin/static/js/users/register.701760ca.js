@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * Powered by Fantastic-admin
- * Gitee  https://gitee.com/hooray/fantastic-admin
- * Github https://github.com/hooray/fantastic-admin
- */
-  
-import{d as e,V as t,C as s,W as a,e as i,o as n,f as o,m as r,g as l,h as c,q as d,Y as u,af as p,a2 as g,a3 as y}from"../main-450992e1.js";const f={class:"note_register_main"},m={style:{display:"flex","align-items":"center","margin-top":"16px","margin-bottom":"24px"}},v={style:{"margin-left":"12px"}},x={style:{"margin-top":"16px"}},b=e({__name:"register",setup(e){const g=t(),y=s({registerByAccount:"1"});function b(){if(0==g.isUserModifyPermissions())return p.error("非超级管理员无权限操作！");try{u.setConfig({settings:(e=y,Object.keys(e).map((t=>({configKey:t,configVal:e[t]}))))}).then((e=>{p.success("变更配置信息成功")}))}catch(t){}var e}return a((()=>{!async function(){const e=await u.queryConfig({keys:["registerByAccount"]});y.registerByAccount=e.data}()})),(e,t)=>{const s=i("el-alert"),a=i("el-switch"),u=i("el-button");return n(),o("div",null,[r("div",null,[l(s,{closable:!1,"show-icon":"",title:"说明",description:"开启帐号密码注册方式的开关，如果关闭前台就不显示这个帐号密码注册方式",type:"warning"})]),r("div",f,[t[2]||(t[2]=r("div",{class:"title"}," 账号注册配置 ",-1)),r("div",null,[r("div",m,[t[1]||(t[1]=r("div",{style:{"font-size":"15px",color:"#9FA3B8"}},"账号密码注册",-1)),r("div",v,[l(a,{modelValue:y.registerByAccount,"onUpdate:modelValue":t[0]||(t[0]=e=>y.registerByAccount=e),"active-value":"1","inactive-value":"0"},null,8,["modelValue"])])])])]),r("div",x,[l(u,{bg:"",text:"",type:"primary",size:"large",style:{"font-size":"15px",background:"#EFF6FF",height:"42px",color:"#60A5FA","border-radius":"8px",padding:"8px 100px"},onClick:b},{default:c((()=>t[3]||(t[3]=[d("保存设置")]))),_:1})])])}}});"function"==typeof y&&y(b);const A=g(b,[["__scopeId","data-v-7cd11b11"]]);export{A as default};

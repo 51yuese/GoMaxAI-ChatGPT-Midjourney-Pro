@@ -1,1 +1,0 @@
-import{aO as a,aP as e}from"./index-dbFcL0sn.js";const r={packageV4:e=>a("/api/crami/package4Select",e),packageV2:e=>a("/api/crami/packagePageV2",e),buy:a=>e("/api/order/buy",a),query:e=>a("/api/order/queryByOrderId",e)};export{r as p};

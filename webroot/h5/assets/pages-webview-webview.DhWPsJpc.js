@@ -1,1 +1,0 @@
-import{r as e,D as a,b as s,L as r,aB as n,a as t}from"./index-DXjTGk9Y.js";const o={__name:"webview",setup(o){const u=e("");return a((e=>{u.value=decodeURIComponent(e.url||"")})),(e,a)=>{const o=n;return u.value?(t(),s(o,{key:0,src:u.value},null,8,["src"])):r("",!0)}}};export{o as default};
