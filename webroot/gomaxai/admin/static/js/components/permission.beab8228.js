@@ -1,0 +1,1 @@
+import{_ as s}from"../permission.vue_vue_type_script_setup_true_lang/permission.vue_vue_type_script_setup_true_lang.36cc9dee.js";import"../main-efab0349.js";import"../access/access.15d6b48f.js";export{s as default};

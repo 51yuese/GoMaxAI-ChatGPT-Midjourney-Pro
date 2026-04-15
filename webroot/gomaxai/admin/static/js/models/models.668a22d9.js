@@ -1,0 +1,1 @@
+import{az as s}from"../main-efab0349.js";const e={queryModels:e=>s.get("models/query",{params:{...e,isAdmin:1}},{fetchOptions:{saas:!0}}),setModels:e=>s.post("models/setModel",e),delModels:e=>s.post("models/delModel",e)};export{e as A};

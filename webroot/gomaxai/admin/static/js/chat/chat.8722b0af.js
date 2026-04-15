@@ -1,0 +1,1 @@
+import{az as a}from"../main-efab0349.js";const r={queryChatAll:r=>a.get("chatLog/chatAll",{params:r,fetchOptions:{saas:!0}}),queryDrawAll:r=>a.get("chatLog/drawAll",{params:r}),recDrawImg:r=>a.post("chatLog/recDrawImg",r),queryMjDrawAll:r=>a.get("midjourney/getList",{params:r}),recMjDrawImg:r=>a.post("midjourney/rec",r),delChatLog:r=>a.post("midjourney/del",r)};export{r as A};

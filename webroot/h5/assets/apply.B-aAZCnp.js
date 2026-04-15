@@ -1,0 +1,1 @@
+import{aP as e}from"./index-Cv9kzDCU.js";const t={getAppAsync:t=>new Promise((a=>{e("/api/gpts/getApp",t).then((e=>{a({code:200,data:e.data})})).catch((e=>{a({code:300,error:e})}))})),getAppModelAsync:t=>new Promise((a=>{e("/api/gpts/getAppModel",t).then((e=>{a({code:200,data:e.data})})).catch((e=>{a({code:300,error:e})}))}))};export{t as a};

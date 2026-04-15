@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" >
+
+<head>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		.main-container {
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		body {
+			background: #fff;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<!-- <link rel="apple-touch-icon" href="/favicon.ico"> -->
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+    <meta name="referrer" content="no-referrer" />
+	<meta http-equiv="x-dns-prefetch-control" content="off">
+	<meta http-equiv="Expires" content="0">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
+	<title></title>
+  <script type="module" crossorigin src="/static/js/main-027f8a01.js"></script>
+  <link rel="stylesheet" href="/static/css/index-137d821f.css">
+</head>
+
+<body class="dark:bg-black">
+	<div id="app">
+		<!-- <div class="main-container "></div> -->
+
+		
+		<script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+		<script>
+			const now = new Date()
+			const hour = now.getHours()
+			const words = document.querySelectorAll('.loading-text-words')
+			const theme = localStorage.theme
+
+			if (theme) {
+				if (theme === 'dark') {
+					// document.body.style.backgroundColor = '#1F1F38'
+					document.body.style.backgroundColor = '#15171A'
+					for (let i = 0; i < words.length; i++) {
+						const word = words[i]
+						word.style.color = '#fff'
+					}
+				}
+
+				if (theme === 'light') {
+					document.body.style.backgroundColor = '#fff'
+					for (let i = 0; i < words.length; i++) {
+						const word = words[i]
+						word.style.color = '#24272e'
+					}
+				}
+			}
+			else {
+				if (!theme && hour >= 6 && hour <= 20) {
+					document.body.style.backgroundColor = '#fff'
+					for (let i = 0; i < words.length; i++) {
+						const word = words[i]
+						word.style.color = '#24272e'
+					}
+				}
+				else {
+					document.body.style.backgroundColor = '#1F1F38'
+					for (let i = 0; i < words.length; i++) {
+						const word = words[i]
+						word.style.color = '#fff'
+					}
+				}
+			}
+		</script>
+	</div>
+</body>
+
+</html>
+
+<script>
+// document.querySelector('html').classList.toggle('loading')
+</script>
