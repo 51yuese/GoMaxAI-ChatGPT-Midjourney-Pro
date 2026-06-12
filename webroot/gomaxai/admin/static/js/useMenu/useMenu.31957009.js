@@ -1,0 +1,1 @@
+import{a as s,f as t,r as e}from"../main-a8c32b8e.js";function n(){const n=s(),i=t();return{switchTo:function(s){i.setActived(s),n.settings.menu.switchMainMenuAndPageJump&&e.push(i.sidebarMenusFirstDeepestPath)}}}export{n as u};

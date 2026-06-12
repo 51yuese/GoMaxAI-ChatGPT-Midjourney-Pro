@@ -1,0 +1,1 @@
+import{r as e,B as a,b as s,K as r,aP as n,a as t}from"./index-DggVOKiW.js";const o={__name:"webview",setup(o){const u=e("");return a((e=>{u.value=decodeURIComponent(e.url||"")})),(e,a)=>{const o=n;return u.value?(t(),s(o,{key:0,src:u.value},null,8,["src"])):r("",!0)}}};export{o as default};

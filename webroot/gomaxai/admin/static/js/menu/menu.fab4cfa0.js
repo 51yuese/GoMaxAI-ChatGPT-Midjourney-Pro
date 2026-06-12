@@ -1,0 +1,1 @@
+import{az as e}from"../main-efab0349.js";const n={quertMenu:n=>e.get("menu/query",{params:n}),visibleMenu:n=>e.post("menu/visible",n),setMenu:n=>e.post("menu/setMenu",n),delMenu:n=>e.post("menu/delete",n),updateIcon:n=>e.post("menu/updateIcon",n)};export{n as a};

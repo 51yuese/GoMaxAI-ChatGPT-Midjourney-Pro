@@ -1,0 +1,1 @@
+import{X as s,a8 as t,a6 as e}from"../main-efab0349.js";function n(){const n=s(),a=t();return{switchTo:function(s){a.setActived(s),n.settings.menu.switchMainMenuAndPageJump&&e.push(a.sidebarMenusFirstDeepestPath)}}}export{n as u};

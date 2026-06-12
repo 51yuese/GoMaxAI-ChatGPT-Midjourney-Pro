@@ -1,0 +1,1 @@
+import{r as e,M as s,p as a,s as r,aE as n,i as t}from"./index-CCRm-QQp.js";const o={__name:"webview",setup(o){const u=e("");return s((e=>{u.value=decodeURIComponent(e.url||"")})),(e,s)=>{const o=n;return u.value?(t(),a(o,{key:0,src:u.value},null,8,["src"])):r("",!0)}}};export{o as default};

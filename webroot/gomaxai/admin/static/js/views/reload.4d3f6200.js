@@ -1,0 +1,1 @@
+import{d as a,U as s,W as o,o as t,f as e,a3 as n}from"../main-efab0349.js";const r=a({__name:"reload",setup(a){const n=s();return o(()=>{n.go(-1)}),(a,s)=>(t(),e("div"))}});"function"==typeof n&&n(r);export{r as default};

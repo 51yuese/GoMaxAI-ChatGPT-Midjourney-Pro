@@ -1,0 +1,1 @@
+import{az as s}from"../main-efab0349.js";const e={querySalesOrder:e=>s.get("sales/salesOrder",{params:e}),salesAuditOrder:e=>s.post("sales/auditOrder",e),updateSalesUser:e=>s.post("sales/updateUserSales",e),queryRecords:e=>s.get("sales/inviteRecords",{params:e}),querySalesUserList:e=>s.get("sales/salesUserList",{params:e})};export{e as A};

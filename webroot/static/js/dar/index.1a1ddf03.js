@@ -1,0 +1,1 @@
+import{d as s,o as a,E as e,$ as t,j as i,k as n,p as r}from"../main-a2f3494e.js";const o={class:"darMain"},d=s({__name:"index",setup:s=>(a((()=>{e.emit("setSliderMenus")})),(s,a)=>{const e=t("RouterView");return i(),n("div",o,[r(e)])})});export{d as default};

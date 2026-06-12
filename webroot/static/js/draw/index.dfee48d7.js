@@ -1,0 +1,1 @@
+import{d as s,x as a,a8 as t,c as e,E as o,X as n,T as i,o as r,$ as m,j as c,D as u}from"../main-a2f3494e.js";const d=s({__name:"index",setup(s){const d=a();return t(),e((()=>"dark"===d.theme)),o.emit("nowLocation",n.options.history.location),i(),r((()=>{o.emit("setSliderMenus")})),(s,a)=>{const t=m("RouterView");return c(),u(t)}}});export{d as default};

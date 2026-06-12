@@ -1,0 +1,1 @@
+import{aJ as t,g as a}from"../main-a2f3494e.js";function r(a={}){return t({url:"/articles/getArticles",data:a})}function e(a={}){return t({url:"/articles/getCategorys",data:a})}function s(t={}){return a({url:"/articles/getDetail",data:t})}export{r as a,s as b,e as g};

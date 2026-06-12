@@ -1,0 +1,1 @@
+import{l as a}from"../main-a8c32b8e.js";const r={queryChatAll:r=>a.get("chatLog/chatAll",{params:r,fetchOptions:{saas:!0}}),queryDrawAll:r=>a.get("chatLog/drawAll",{params:r}),recDrawImg:r=>a.post("chatLog/recDrawImg",r),queryMjDrawAll:r=>a.get("midjourney/getList",{params:r}),recMjDrawImg:r=>a.post("midjourney/rec",r),delChatLog:r=>a.post("midjourney/del",r)};export{r as A};

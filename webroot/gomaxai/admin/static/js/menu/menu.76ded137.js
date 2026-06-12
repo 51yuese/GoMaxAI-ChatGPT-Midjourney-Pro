@@ -1,0 +1,1 @@
+import{l as e}from"../main-a8c32b8e.js";const n={quertMenu:n=>e.get("menu/query",{params:n}),visibleMenu:n=>e.post("menu/visible",n),setMenu:n=>e.post("menu/setMenu",n),delMenu:n=>e.post("menu/delete",n),updateIcon:n=>e.post("menu/updateIcon",n)};export{n as a};

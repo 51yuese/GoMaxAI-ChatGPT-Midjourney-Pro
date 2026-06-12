@@ -1,0 +1,1 @@
+import{az as d}from"../main-efab0349.js";const o={queryBadWords:(o={})=>d.get("badwords/query",{params:o}),queryViolation:(o={})=>d.get("badwords/violation",{params:o}),delBadWords:o=>d.post("badwords/del",o),addBadWords:o=>d.post("badwords/add",o),updateBadWords:o=>d.post("badwords/update",o),delViolationsLog:o=>d.post("badWords/delViolation",o)};export{o as A};

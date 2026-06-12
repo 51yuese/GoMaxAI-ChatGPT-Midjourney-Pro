@@ -1,0 +1,1 @@
+import{e,q as s,I as a,ah as t,w as i,x as n,C as r}from"../main-eb81b51c.js";const o={class:"articleCenterMain"},m=e({__name:"index",setup:e=>(s((()=>{a.emit("setSliderMenus")})),(e,s)=>{const a=t("RouterView");return i(),n("div",o,[r(a)])})});export{m as default};

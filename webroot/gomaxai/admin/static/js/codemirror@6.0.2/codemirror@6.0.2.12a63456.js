@@ -1,0 +1,1 @@
+import{i as r,j as o,k as a}from"../@codemirror_view@6.43.0/@codemirror_view@6.43.0.2c01a38c.js";import{u as m,v as s}from"../@codemirror_language@6.12.3/@codemirror_language@6.12.3.6fb34e77.js";import{h as i,d as e,a as c}from"../@codemirror_commands@6.10.3/@codemirror_commands@6.10.3.29ab528f.js";const d=(()=>[r(),i(),o(),m(s,{fallback:!0}),a.of([...e,...c])])();export{d as m};
