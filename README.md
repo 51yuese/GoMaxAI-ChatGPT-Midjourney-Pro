@@ -127,7 +127,7 @@
  <h1 align="center">数字人</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/shuziren.png" alt="icon"/>
 <h1 align="center">知识库</h1>
- <img src="/blob/main/images/创意工具.png" alt="icon"/>
+ <img src="/images/创意工具.png" alt="icon"/>
 <h1 align="center">AIPPT</h1>
  <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
 <h1 align="center">MJ绘画</h1>
