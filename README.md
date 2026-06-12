@@ -10,7 +10,7 @@
 [简体中文](./README.md)
 
 
-个人、团队、企业私有化运营的AIGC应用,支持coze智能体、数字人克隆、声音克隆、AI绘画、AI视频、AIPPT生成、AI音乐等热门AI功能。支持Deepseek满血版、、ChatGPT、Claude、Gemini、kimi、文心一言、讯飞星火、清华智谱、suno-v3.5、luma-video等模型。
+个人、团队、企业私有化运营的AIGC应用,支持各种热门创意工具自由创建、coze智能体、数字人克隆、声音克隆、AI绘画、AI视频、AIPPT生成、AI音乐等热门AI功能。支持Deepseek满血版、、ChatGPT、Claude、Gemini、kimi、文心一言、讯飞星火、清华智谱、suno-v3.5、luma-video等模型。
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
@@ -32,11 +32,9 @@
 
 </div>
 
-## 功能支持（最新9.4.6版本 2026.04.07）
-> - **🎯新增微信快捷登录；**
-> - **🎯新增即梦视频中转通道；**
-> - **🎯新增VEO视频异步通道；**
-
+## 🎯新增创意工具功能，可以后台自由创建各种热门创意工具（最新9.4.9版本 2026.06.10）
+> - 
+## 功能支持
 > - **PRO版本支持更强大的功能；**
 > - **新增谷歌veo3视频功能（生成视频带声音，支持人物讲话）；**
 > - **新增dify智能体功能；**
@@ -95,14 +93,12 @@
 
 ---
 ## 主要功能
-
 - 极速部署，宝塔10分钟部署完成，小白易可操作！**一键部署**
 - 强大的在线配置框架及丝滑版的体验，95%数据都可以后台在线统一管理！
+- 支持各种热门创意工具后台自由创建
 - 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
-- 精心设计的 UI，支持深色和浅色两种主题
 - ChatGPT + Azure OpenAI +gemini+claude+kimi+suno+keepdesk+文心一言 + 讯飞星火 + 清华智谱 + 自定义对话模型支持
 - 内容安全多层过滤：内置词库 -> 自定义词库 -> 第三方（百度内容审核）安全检测，可同时启用
-- 支持GPT最新模型：gpt-4-1106-preview、gpt-4-vision-preview、gpt-4-v(识图)、gpt-4-dalle(生图)、gpt-4-all(上传文件)、 Dall-E-3、suno-v3、gpt-4o
 - AI绘画支持：文生图 / 放大 / 微调 / 垫图 / 混图 / 咒语解析 / 平移(Pan) / 扩图(Zoom) / 变幻(Vary) / 区域重绘等
 - 绘画账号池（无限量）：每个账号同时支持单独的并发线程设定，线程隔离，可设置出图模式
 - 绘图普通(relax)/快速模式(fast)/极速模式（turb）区分，可单独设置扣除积分
@@ -114,41 +110,37 @@
 - 用户系统：微信扫码登录、邮箱、手机号码
 - 支付系统：微信（支持扫码支付+JSAPI支持） / 支付宝 / 虎皮椒 / 自定义外链
 - 兑换码系统
-- 站点在线配置：例如主题色、LOGO、名称等等均可在后台管理在线配置
 - 邀请机制：好友邀请获得对应奖励，包含防止恶意自己邀请自己机制检测
 - 对话各个模型+绘画各个操作单独自定义扣除积分数量支持
 - 动态用户侧边栏菜单控制显隐
 - 用户端动态菜单（支持内嵌网页、外部链接跳转、内部路径跳转）
 
 ## 界面截图
-
-<h1 align="center">智能问答</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/智能问答.png" alt="icon"/>
- <h1 align="center">数字人</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/shuziren.png" alt="icon"/>
-<h1 align="center">知识库</h1>
+<h1 align="center">创意工具</h1>
  <img src="/images/创意工具.png" alt="icon"/>
-<h1 align="center">AIPPT</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/ppt.png" alt="icon"/>
-<h1 align="center">MJ绘画</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/MJ.png" alt="icon"/>
+<h1 align="center">智能问答</h1>
+ <img src="/images/智能问答.png" alt="icon"/>
+ <h1 align="center">数字人</h1>
+ <img src="/images/shuziren.png" alt="icon"/>
+<h1 align="center">PPT生成</h1>
+ <img src="/images/ppt.png" alt="icon"/>
+<h1 align="center">绘画生成</h1>
+ <img src="/images/MJ.png" alt="icon"/>
 <h1 align="center">Suno音乐</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/suno.png" alt="icon"/>
-<h1 align="center">AI视频</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/shipin.png" alt="icon"/>
+ <img src="/images/suno.png" alt="icon"/>
+<h1 align="center">视频生成</h1>
+ <img src="/images/shipin.png" alt="icon"/>
 <h1 align="center">个人中心</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/huiyuan.png" alt="icon"/>
+ <img src="/images/huiyuan.png" alt="icon"/>
 <h1 align="center">手机端</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/手机端.png" alt="icon"/>
+ <img src="/master/images/手机端.png" alt="icon"/>
 <h1 align="center">管理后台</h1>
- <img src="https://gitee.com/ignition-network/gomaxaipro/raw/master/images/管理后台.png" alt="icon"/>
-
-## 开发计划
-
-- [x] 一键成片功能
-- [x] 更多大模型
+ <img src="/images/管理后台.png" alt="icon"/>
 
 ## 最新动态
+- 🚀 9.4.9  新增创意工具功能，可以后台自由创建各种热门创意工具
+- 🚀 9.4.8  新增图片在线编辑功能
+- 🚀 9.4.7  专业版正式上线
 - 🚀 9.4.6  新增即梦、veo多通道，微信快捷登录等
 - 🚀 9.4.5  新增Grok视频、视频教程中心等
 - 🚀 9.4.4  优化对话联网搜索、文档阅读功能等
